@@ -23,12 +23,14 @@ pip install yearfrac
 ## Usage
 Check the [examples](examples) folder for notebooks.
 
-Function
+Functions
 
 * `isaleapyear` -- Check if a year is leap year
 * `eastersunday` -- Determine day and month of an Easter Sunday for a given year
 * `jd_to_date` and `date_to_jd` -- Julian Day number conversion
-
+* `act_afb` -- Actual/Actual AFB
+* `act_isda` -- Actual/Actual ISDA
+* `yearfrac` -- Wrapper for all daycount methods
 
 ## Commands
 * Check syntax: `flake8 --ignore=F401`
