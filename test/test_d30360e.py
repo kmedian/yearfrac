@@ -12,6 +12,7 @@ class Test_d30360e(unittest.TestCase):
         x = d30360e(2018, 12, 15, 2019, 3, 1, True)
         self.assertEquals(round(x, 8), 0.21111111)
 
+
 # run
 if __name__ == '__main__':
     unittest.main()
