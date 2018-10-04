@@ -1,6 +1,4 @@
-def d30360e(y1, m1, d1,
-            y2, m2, d2,
-            matu):
+def d30360e(y1, m1, d1, y2, m2, d2, matu):
     diff_days = 0
     diff_days += (360 * (y2 - y1))
     diff_days += (30 * (m2 - m1))
@@ -18,8 +16,8 @@ def d30360e(y1, m1, d1,
         diff_days -= 30 if d1 > 30 else d1
 
     if diff_days < 0:
-        print('Newer date y2-m2-d2 is older than previous date y1-m1-d1.')
-        exit(-1)
+        raise Exception(
+            'Newer date y2-m2-d2 is older than previous date y1-m1-d1.')
     elif diff_days == 0:
         return 0e0
     else:
