@@ -9,7 +9,7 @@
 * [Usage](#usage)
 * [Commands](#commands)
 * [Support](#support)
-* [Contributing](#contributing)
+* [Contributing](#contributors)
 
 
 ## Installation
@@ -30,6 +30,8 @@ Functions
 * `jd_to_date` and `date_to_jd` -- Julian Day number conversion
 * `act_afb` -- Actual/Actual AFB
 * `act_isda` -- Actual/Actual ISDA
+* `d30360e` -- 30E/360 ISDA daycount method
+* `d30365` -- 30/365 daycount method
 * `yearfrac` -- Wrapper for all daycount methods
 
 ## Commands

@@ -3,6 +3,7 @@ import datetime
 from .act_isda import act_isda
 from .act_afb import act_afb
 from .d30360e import d30360e
+from .d30365 import d30365
 
 
 def yearfrac(d1, d2, method='act'):
@@ -30,5 +31,9 @@ def yearfrac(d1, d2, method='act'):
             d1.year, d1.month, d1.day,
             d2.year, d2.month, d2.day,
             True)
+    elif method.lower() in ('30365'):
+        return d30365(
+            d1.year, d1.month, d1.day,
+            d2.year, d2.month, d2.day)
     else:
         raise Exception("no method {0:s}".format(method))
