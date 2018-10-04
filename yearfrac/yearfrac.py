@@ -10,12 +10,12 @@ def __yearfrac_scalar_scalar(s1, s2, method_function):
 
 
 def __yearfrac_scalar_vector(s, v, method_function):
-    sv = [s]*len(v)
+    sv = [s] * len(v)
     __yearfrac_vector_vector(sv, v, method_function)
 
 
 def __yearfrac_vector_scalar(v, s, method_function):
-    sv = [s]*len(v)
+    sv = [s] * len(v)
     __yearfrac_vector_vector(v, sv, method_function)
 
 
@@ -34,9 +34,9 @@ __algorithm_mapper = {
     (True, True): __yearfrac_vector_vector,
     (False, False): __yearfrac_scalar_scalar,
     (True, False):
-        lambda v, s, m: __yearfrac_vector_vector(v, [s]*len(v), m),
+        lambda v, s, m: __yearfrac_vector_vector(v, [s] * len(v), m),
     (False, True):
-        lambda s, v, m: __yearfrac_vector_vector([s]*len(v), v, m)
+        lambda s, v, m: __yearfrac_vector_vector([s] * len(v), v, m)
 }
 
 

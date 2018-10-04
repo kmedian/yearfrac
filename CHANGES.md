@@ -1,4 +1,8 @@
 
+# 0.4.0 / 2018-10-04
+
+  * Vectorized version of yearfrac.yearfrac (Factory Design pattern) by @fatkaratekid
+
 # 0.3.0 / 2018-10-04
 
   * 30/365 daycount method (yearfrac.d30365) added by Vinay Gupta @vinschess

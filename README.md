@@ -51,6 +51,7 @@ Please [open an issue](https://github.com/kmedian/yearfrac/issues/new) for suppo
 
 
 ## Contributors
+* fatkaratekid [@fatkaratekid](https://github.com/fatkaratekid)
 * Vinay Gupta [@vinschess](https://github.com/vinschess)
 * Ulf Hamster [@ulf1](https://github.com/ulf1)
 
