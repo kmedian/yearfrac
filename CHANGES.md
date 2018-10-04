@@ -1,4 +1,8 @@
 
+# 0.4.1 / 2018-10-04
+
+  * bugfix, comparison, changed to y1==y2
+
 # 0.4.0 / 2018-10-04
 
   * Vectorized version of yearfrac.yearfrac (Factory Design pattern) by @fatkaratekid

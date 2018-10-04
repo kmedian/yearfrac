@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(name='yearfrac',
-      version='0.4.0',
+      version='0.4.1',
       description='Daycount methods to compute date differences in year units',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
