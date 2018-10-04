@@ -1,13 +1,26 @@
 import collections
 from .act_isda import act_isda
 from .act_afb import act_afb
+from .d30360e import d30360e
 
 
 def __get_method_function(method):
-    if method in ('act_afb', 'act'):
+    if method.lower() in ('act', 'act_afb', 'afb'):
         return act_afb
-    elif method == 'act_isda':
+    elif method.lower() == 'act_isda':
         return act_isda
+    elif method.lower() in ('d30360e', '30e360'):
+        return lambda x1,x2,x3,y1,y2,y3: d30360e(
+            x1, x2, x3,
+            y1, y2, y3,
+            False
+        )
+    elif method.lower() in ('d30360e_matu', '30e360_matu'):
+        return lambda x1, x2, x3, y1, y2, y3: d30360e(
+            x1, x2, x3,
+            y1, y2, y3,
+            True
+        )
     raise Exception("no method {0:s}".format(method))
 
 

@@ -48,5 +48,8 @@ Functions
 Please [open an issue](https://github.com/kmedian/yearfrac/issues/new) for support.
 
 
-## Contributing
+## Contributors
+* Vinay Gupta [@vinschess](https://github.com/vinschess)
+* Ulf Hamster [@ulf1](https://github.com/ulf1)
+
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/kmedian/yearfrac/compare/).
