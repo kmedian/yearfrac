@@ -21,7 +21,7 @@ pip install yearfrac
 
 
 ## Usage
-Check the [examples](examples) folder for notebooks.
+Check the [examples](https://github.com/kmedian/yearfrac/tree/master/examples) folder for notebooks.
 
 Functions
 
@@ -40,10 +40,6 @@ Functions
 * Remove `.pyc` files: `find . -type f -name "*.pyc" | xargs rm`
 * Remove `__pycache__` folders: `find . -type d -name "__pycache__" | xargs rm -rf`
 * Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
-
-
-## Debugging
-* Notebooks to profile python code are in the [profile](profile) folder
 
 
 ## Support
