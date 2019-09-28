@@ -1,5 +1,5 @@
 
-def date_to_jd(year, month, day):
+def date_to_jd(year: int, month: int, day: int) -> int:
     a = int((14 - month) / 12.)
     y = int(year + 4800 - a)
     m = int(month + (12 * a) - 3)
@@ -9,7 +9,7 @@ def date_to_jd(year, month, day):
     return jd
 
 
-def jd_to_date(jd):
+def jd_to_date(jd: int) -> (int, int, int):
     a = jd + 32044
     b = int(((4 * a) + 3) / 146097.)
     c = a - int((b * 146097) / 4.)

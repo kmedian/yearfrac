@@ -1,4 +1,6 @@
-def d30360e(y1, m1, d1, y2, m2, d2, matu):
+def d30360e(y1: int, m1: int, d1: int,
+            y2: int, m2: int, d2: int, matu: bool) -> float:
+
     diff_days = 0
     diff_days += (360 * (y2 - y1))
     diff_days += (30 * (m2 - m1))

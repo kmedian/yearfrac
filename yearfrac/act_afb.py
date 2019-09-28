@@ -3,7 +3,8 @@ from .isaleapyear import isaleapyear
 from .julianday import date_to_jd
 
 
-def act_afb(y1, m1, d1, y2, m2, d2):
+def act_afb(y1: int, m1: int, d1: int,
+            y2: int, m2: int, d2: int) -> float:
 
     if y1 == y2:
         diff_days = date_to_jd(y2, m2, d2) - date_to_jd(y1, m1, d1)
