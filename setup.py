@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(name='yearfrac',
-      version='0.4.2',
+      version='0.4.3',
       description='Daycount methods to compute date differences in year units',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
@@ -18,6 +18,7 @@ setup(name='yearfrac',
       packages=['yearfrac'],
       install_requires=[
           'setuptools>=40.0.0',
-          'nose>=1.3.7'],
+          'numpy>=1.14.*',
+          'six>=1.13.*'],
       python_requires='>=3.6',
       zip_safe=False)

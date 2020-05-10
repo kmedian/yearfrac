@@ -35,7 +35,18 @@ Functions
 * `yearfrac` -- Wrapper for all daycount methods
 
 ## Commands
-* Check syntax: `flake8 --ignore=F401`
+Install a virtual environment
+
+```
+python3.8 -m venv .venv
+source .venv/bin/activate
+pip3 install --upgrade pip
+pip3 install -r requirements.txt
+```
+
+(If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
+
+* Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `python -W ignore -m unittest discover`
 * Remove `.pyc` files: `find . -type f -name "*.pyc" | xargs rm`
 * Remove `__pycache__` folders: `find . -type d -name "__pycache__" | xargs rm -rf`
