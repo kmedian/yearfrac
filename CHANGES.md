@@ -1,3 +1,7 @@
+# 0.4.3 / 2020-05-10
+
+  * bug #11 fixed. `collections` replaced with `six`
+
 # 0.4.2 / 2019-09-28
 
   * add type hints

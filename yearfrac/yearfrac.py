@@ -1,4 +1,4 @@
-import collections
+from six.moves import collections_abc
 from .method_factory import methods
 import datetime
 import numpy as np
@@ -56,8 +56,8 @@ def yearfrac(d1: datetime.datetime,
              method: str = 'act'):
     yearfrac_func = __algorithm_mapper[
         (
-            isinstance(d1, collections.Iterable),
-            isinstance(d2, collections.Iterable)
+            isinstance(d1, collections_abc.Iterable),
+            isinstance(d2, collections_abc.Iterable)
         )
     ]
     method_function = methods[method]
