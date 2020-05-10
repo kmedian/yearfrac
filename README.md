@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/kmedian/yearfrac.svg?branch=master)](https://travis-ci.org/kmedian/yearfrac)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kmedian/yearfrac/master?urlpath=lab)
 
 # yearfrac
