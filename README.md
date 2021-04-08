@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/template_pypi.svg)](https://badge.fury.io/py/template_pypi)
+[![PyPI version](https://badge.fury.io/py/yearfrac.svg)](https://badge.fury.io/py/yearfrac)
 
 # yearfrac
 
