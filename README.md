@@ -1,15 +1,6 @@
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/kmedian/yearfrac/master?urlpath=lab)
+[![PyPI version](https://badge.fury.io/py/template_pypi.svg)](https://badge.fury.io/py/template_pypi)
 
 # yearfrac
-
-
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Commands](#commands)
-* [Support](#support)
-* [Contributing](#contributors)
-
 
 ## Installation
 The `yearfrac` [git repo](http://github.com/kmedian/yearfrac) is available as [PyPi package](https://pypi.org/project/yearfrac)
@@ -33,18 +24,23 @@ Functions
 * `d30365` -- 30/365 daycount method
 * `yearfrac` -- Wrapper for all daycount methods
 
-## Commands
-Install a virtual environment
+
+## Appendix
+
+### Install a virtual environment
 
 ```
 python3.6 -m venv .venv
 source .venv/bin/activate
 pip3 install --upgrade pip
 pip3 install -r requirements.txt
+pip3 install -r requirements-dev.txt
+pip3 install -r requirements-demo.txt
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
 
+### Python Commands
 * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `python -W ignore -m unittest discover`
 * Remove `.pyc` files: `find . -type f -name "*.pyc" | xargs rm`
@@ -52,11 +48,11 @@ pip3 install -r requirements.txt
 * Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
 
 
-## Support
+### Support
 Please [open an issue](https://github.com/kmedian/yearfrac/issues/new) for support.
 
 
-## Contributors
+### Contributors
 * Ivan Nesic [@fatkaratekid](https://github.com/fatkaratekid)
 * Vinay Gupta [@vinschess](https://github.com/vinschess)
 * Ulf Hamster [@ulf1](https://github.com/ulf1)
