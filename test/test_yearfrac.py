@@ -2,7 +2,7 @@ import unittest
 from yearfrac import yearfrac
 from datetime import datetime
 import numpy as np
-import pandas as pd
+# import pandas as pd
 
 
 class Test_Yearfrac(unittest.TestCase):
@@ -69,6 +69,8 @@ class Test_Yearfrac(unittest.TestCase):
             [0.20547945, 0.20547945]
         )
 
+
+"""
     def test_pdseries_vector(self):
         v1 = pd.Series(
             [datetime(2018, 12, 15), datetime(2018, 12, 15)]
@@ -79,7 +81,7 @@ class Test_Yearfrac(unittest.TestCase):
             [round(x[0], 8), round(x[1], 8)],
             [0.20547945, 0.20547945]
         )
-
+"""
 
 # run
 if __name__ == '__main__':
