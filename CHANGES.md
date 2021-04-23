@@ -1,3 +1,8 @@
+# 0.4.6 / 2020-04-23
+
+  * Test multiple python versions
+  * Installation problems: remove pandoc from setup.py
+
 # 0.4.3 / 2020-05-10
 
   * bug #11 fixed. `collections` replaced with `six`
