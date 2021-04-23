@@ -19,10 +19,9 @@ setup(name='yearfrac',
       url='http://github.com/kmedian/yearfrac',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
-      license='MIT',
+      license='Apache License 2.0',
       packages=['yearfrac'],
       install_requires=[
-          'setuptools>=40.0.0',
           'numpy>=1.14.*,<2'],
       python_requires='>=3.6',
-      zip_safe=True)
+      zip_safe=False)
