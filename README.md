@@ -1,4 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/yearfrac.svg)](https://badge.fury.io/py/yearfrac)
+[![yearfrac](https://snyk.io/advisor/python/yearfrac/badge.svg)](https://snyk.io/advisor/python/yearfrac)
+
 
 # yearfrac
 
