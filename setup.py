@@ -1,5 +1,11 @@
 from setuptools import setup
-import pypandoc
+import os
+
+
+def read(fname):
+    with open(os.path.join(os.path.dirname(__file__), fname)) as fp:
+        s = fp.read()
+    return s
 
 
 def get_version(path):
@@ -15,14 +21,13 @@ def get_version(path):
 setup(name='yearfrac',
       version=get_version("yearfrac/__init__.py"),
       description='Daycount methods to compute date differences in year units',
-      long_description=pypandoc.convert('README.md', 'rst'),
+      long_description=read('README.rst'),
       url='http://github.com/kmedian/yearfrac',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='MIT',
       packages=['yearfrac'],
       install_requires=[
-          'setuptools>=40.0.0',
           'numpy>=1.14.*,<2'],
       python_requires='>=3.6',
       zip_safe=True)
