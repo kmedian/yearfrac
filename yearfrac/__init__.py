@@ -1,4 +1,4 @@
-__version__ = '0.4.5'
+__version__ = '0.4.6'
 
 from .isaleapyear import isaleapyear
 from .julianday import date_to_jd, jd_to_date
