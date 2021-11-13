@@ -19,7 +19,7 @@ def act_isda(y1: int, m1: int, d1: int,
             return diff_days / denom
 
     elif y1 < y2:
-        diffa = date_to_jd(y1, 12, 31) - date_to_jd(y1, m1, d1)
+        diffa = date_to_jd(y1, 12, 31) - date_to_jd(y1, m1, d1) + 1
         denoma = 366e0 if isaleapyear(y1) else 365e0
 
         diffb = date_to_jd(y2, m2, d2) - date_to_jd(y2, 1, 1)

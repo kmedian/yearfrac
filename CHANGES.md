@@ -1,3 +1,7 @@
+# 0.4.7 / 2021-11-13
+
+  * Bugfixes for Act AFB and ISDA by @emiliobasualdo
+
 # 0.4.6 / 2020-04-23
 
   * Test multiple python versions
