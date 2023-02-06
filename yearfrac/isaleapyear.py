@@ -5,4 +5,4 @@ def isaleapyear(y: int) -> bool:
     if y < 0:
         raise Exception("y is negative")
 
-    return not(y % 4) and (bool(y % 100) or not(y % 400))
+    return not (y % 4) and (bool(y % 100) or not (y % 400))
