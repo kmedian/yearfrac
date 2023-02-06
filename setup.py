@@ -21,13 +21,13 @@ def get_version(path):
 setup(name='yearfrac',
       version=get_version("yearfrac/__init__.py"),
       description='Daycount methods to compute date differences in year units',
-      long_description=read('README.rst'),
+      long_description=read('README.md'),
       url='http://github.com/kmedian/yearfrac',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='MIT',
       packages=['yearfrac'],
       install_requires=[
-          'numpy>=1.14.*,<2'],
+          'numpy>=1.14,<2'],
       python_requires='>=3.6',
       zip_safe=True)
