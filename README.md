@@ -1,8 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/yearfrac.svg)](https://badge.fury.io/py/yearfrac)
 [![yearfrac](https://snyk.io/advisor/python/yearfrac/badge.svg)](https://snyk.io/advisor/python/yearfrac)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/kmedian/yearfrac.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kmedian/yearfrac/alerts/)
-[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/kmedian/yearfrac.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kmedian/yearfrac/context:python)
-[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6ImttZWRpYW4iLCJyZXBvMSI6InllYXJmcmFjIiwiaW5jbHVkZUxpbnQiOmZhbHNlLCJhdXRob3JJZCI6Mjk0NTIsImlhdCI6MTYxOTU0MjUyOX0.RI73MEmFUVlndzYdZq9l6ip2XozSJldBOhDHyIGsfwI)](https://www.deepcode.ai/app/gh/kmedian/yearfrac/_/dashboard?utm_content=gh%2Fkmedian%2Fyearfrac)
+
 
 # yearfrac
 
@@ -53,7 +51,7 @@ pip3 install -r requirements-demo.txt
 Publish
 
 ```sh
-pandoc README.md --from markdown --to rst -s -o README.rst
+# pandoc README.md --from markdown --to rst -s -o README.rst  # RST file is too much trouble
 python setup.py sdist 
 twine upload -r pypi dist/*
 ```
@@ -63,6 +61,8 @@ Please [open an issue](https://github.com/kmedian/yearfrac/issues/new) for suppo
 
 
 ### Contributors
+* Adam Groszer [@agroszer](https://github.com/agroszer)
+* Emilio Basualdo [@emiliobasualdo](https://github.com/emiliobasualdo)
 * Ivan Nesic [@fatkaratekid](https://github.com/fatkaratekid)
 * Vinay Gupta [@vinschess](https://github.com/vinschess)
 * Ulf Hamster [@ulf1](https://github.com/ulf1)
