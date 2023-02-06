@@ -1,3 +1,7 @@
+# 0.4.8 / 2023-02-06
+
+  * Installation bug fixed. RST file wasn't available.
+
 # 0.4.7 / 2021-11-13
 
   * Bugfixes for Act AFB and ISDA by @emiliobasualdo
